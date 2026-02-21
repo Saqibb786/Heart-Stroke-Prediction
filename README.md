@@ -14,19 +14,19 @@ A machine learning web application that predicts the risk of heart disease based
 
 ## Input Parameters
 
-| Parameter | Description |
-|-----------|-------------|
-| **Age** | Patient's age (18–100) |
-| **Sex** | Male (M) / Female (F) |
-| **Chest Pain Type** | ATA, NAP, TA, or ASY |
-| **Resting Blood Pressure** | Resting BP in mm Hg (80–200) |
-| **Cholesterol** | Serum cholesterol in mg/dL (100–600) |
-| **Fasting Blood Sugar** | Whether fasting blood sugar > 120 mg/dL (0 or 1) |
-| **Resting ECG** | Normal, ST, or LVH |
-| **Max Heart Rate** | Maximum heart rate achieved (60–220) |
-| **Exercise-Induced Angina** | Yes (Y) / No (N) |
-| **Oldpeak** | ST depression induced by exercise (0.0–6.0) |
-| **ST Slope** | Up, Flat, or Down |
+| Parameter                   | Description                                      |
+| --------------------------- | ------------------------------------------------ |
+| **Age**                     | Patient's age (18–100)                           |
+| **Sex**                     | Male (M) / Female (F)                            |
+| **Chest Pain Type**         | ATA, NAP, TA, or ASY                             |
+| **Resting Blood Pressure**  | Resting BP in mm Hg (80–200)                     |
+| **Cholesterol**             | Serum cholesterol in mg/dL (100–600)             |
+| **Fasting Blood Sugar**     | Whether fasting blood sugar > 120 mg/dL (0 or 1) |
+| **Resting ECG**             | Normal, ST, or LVH                               |
+| **Max Heart Rate**          | Maximum heart rate achieved (60–220)             |
+| **Exercise-Induced Angina** | Yes (Y) / No (N)                                 |
+| **Oldpeak**                 | ST depression induced by exercise (0.0–6.0)      |
+| **ST Slope**                | Up, Flat, or Down                                |
 
 ## Tech Stack
 
@@ -57,12 +57,14 @@ Heart-Stroke-Prediction/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/Saqibb786/Heart-Stroke-Prediction.git
    cd Heart-Stroke-Prediction
    ```
 
 2. **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
